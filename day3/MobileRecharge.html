@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Recharge App</title>
+    <link rel="stylesheet" href="MobileRecharge.css">
+</head>
+<body>
+
+    <header class="header">
+        <h2>MobileRecharge</h2>
+    </header>
+
+    <section class="main-box">
+        <h3>Recharge Your Mobile</h3>
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number">
+
+        <label>Operator</label>
+        <select>
+            <option>Select Operator</option>
+            <option>Jio</option>
+            <option>Airtel</option>
+            <option>Vi</option>
+            <option>BSNL</option>
+        </select>
+
+        <label>Amount</label>
+        <input type="number" placeholder="Enter amount">
+
+        <button class="btn" onclick="showMessage()">Proceed to Pay</button>
+
+    </section>
+
+    <script>
+        function showMessage() {
+            alert("Recharge Successful!");
+        }
+    </script>
+
+</body>
+</html>
